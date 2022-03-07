@@ -56,8 +56,13 @@ MSA 로 개발 환경이 변화면서 공유 데이터베이스 계층과 같은
     Observer Pattern 이란 하나의 생성자인 Main Object 을 다수의 Observer 객체와 의존관계로 묶여 
     
     Main Object가 변화(update)할때마다 notify method 로 이를 통보해 다수의 Observer가 변화를 가져 적용시킨다.
+    
+![1](https://user-images.githubusercontent.com/38696775/157134582-073146e6-5a71-4086-bb22-039b0c73b117.png)
+
+    
 
 
 ## 참조
 https://www.redhat.com/ko/topics/integration/what-is-apache-kafka
 https://galid1.tistory.com/793
+이미지[1] : https://en.wikipedia.org/wiki/Observer_pattern
