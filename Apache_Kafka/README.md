@@ -13,21 +13,21 @@ MSA 로 개발 환경이 변화면서 공유 데이터베이스 계층과 같은
 
 ## 구성 요소
 
-1. Event
+### 1. Event
 
     Event 은 kafka에서 Producer(생산자)와 Consumer(소비자)가 데이터를 주고 받는 단위.
 
-2. Producer(생산자)
+### 2. Producer(생산자)
 
     Producer은 kafka에 이벤트를 게시(post)하는 클라이언트 애플리케이션
 
     즉, 웹 등 사용자가 보는 것
 
-3. Consumer(소비자)
+### 3. Consumer(소비자)
 
     Consumer은 이러한 Topic을 구독하고 이로부터 얻어낸 이벤트를 처리하는 클라이언트 애플리케이션
 
-4. Topic
+### 4. Topic
 
     이벤트가 쓰이는 곳으로 파일 시스템의 폴더와 유사하며, 이벤트는 폴더 안의 파일과 유사
 
@@ -37,7 +37,7 @@ MSA 로 개발 환경이 변화면서 공유 데이터베이스 계층과 같은
 
     즉, 일종의 Queue 이다.
 
-5. Partition
+#### 5. Partition
     Topic는 여러 Broker에 분산되어 저장되며, 이렇게 분산된 Topic을 partition이라고 부른다.
 
 
