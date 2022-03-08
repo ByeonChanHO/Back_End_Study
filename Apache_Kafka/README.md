@@ -59,10 +59,23 @@ MSA 로 개발 환경이 변화면서 공유 데이터베이스 계층과 같은
     
 ![1](https://user-images.githubusercontent.com/38696775/157134582-073146e6-5a71-4086-bb22-039b0c73b117.png)
 
+#### **Kafka의 Observer Pattern**
+    Kafka에서의 Observer Pattern 에서는 각 Broker들 주 하나를 뽑아 Controller 로 지정한다.
     
+    그 이후 Controller를 나머지 Broker들이 관찰하며 변화가 발생해 알려주면 그 즉시 그 정보를 참조한다.
+
+    만약 Controller이 관찰하는 라인(의존 관계)를 파괴시켜버리면 다른 Broker들은 자기들 중에 한명을 뽑아 Controller로 만들어
+
+    다시 그 Controller을 관찰한다.
+
+
+### Pub-Sub Pattern
+
 
 
 ## 참조
 https://www.redhat.com/ko/topics/integration/what-is-apache-kafka
+
 https://galid1.tistory.com/793
+
 이미지[1] : https://en.wikipedia.org/wiki/Observer_pattern
