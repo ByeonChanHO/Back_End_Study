@@ -83,8 +83,10 @@ MSA 로 개발 환경이 변화면서 공유 데이터베이스 계층과 같은
     Kafka에서는 Pub/Sub 을 Producer/Consumer라는 개념으로 Kafka에 맞게 재 구성되었다.
 
     Producer은 Publisher와 같이 이벤트(메세지)를 Topic에 보내어 각 Partition에 맞게 이벤트를 저장한다.
-    
+
     그 이후 Topic을 구독하고 있는 Consumer Group 내의 Sbucrier인 Consumer은 각각 1개 이상의 partition으로부터 이벤트를 가져온다.
+    
+ ![1](https://user-images.githubusercontent.com/38696775/157144578-d9001c76-4625-4289-9cec-3b07f963507f.png)
 
 #### **주의점**
     만약 partition 개수가 Consumer 보다 작으면, 아무일도 않하는 Consumer가 생기기에
