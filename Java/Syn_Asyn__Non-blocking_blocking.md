@@ -26,6 +26,7 @@
     즉, 함수 A가 B를 호출할때 B가 작업하고 있는 동안 A은 다른 작업을 할 수 있다.
 
 
+![1](https://user-images.githubusercontent.com/38696775/157169912-6661b933-e459-4c97-bd70-3a0f91b66c4d.png)
 
 
 
