@@ -51,7 +51,7 @@ MSA 로 개발 환경이 변화면서 공유 데이터베이스 계층과 같은
 2. Pub-Sub Pattern
 3. Decorator Pattern(데코레이터 패턴)
 
-### Observer Pattern
+### 1. Observer Pattern
 
     Observer Pattern 이란 하나의 생성자인 Main Object 을 다수의 Observer 객체와 의존관계로 묶여 
     
@@ -59,7 +59,7 @@ MSA 로 개발 환경이 변화면서 공유 데이터베이스 계층과 같은
     
 ![1](https://user-images.githubusercontent.com/38696775/157134582-073146e6-5a71-4086-bb22-039b0c73b117.png)
 
-#### **Kafka의 Observer Pattern**
+### **Kafka의 Observer Pattern**
     Kafka에서의 Observer Pattern 에서는 각 Broker들 주 하나를 뽑아 Controller 로 지정한다.
     
     그 이후 Controller를 나머지 Broker들이 관찰하며 변화가 발생해 알려주면 그 즉시 그 정보를 참조한다.
@@ -69,7 +69,7 @@ MSA 로 개발 환경이 변화면서 공유 데이터베이스 계층과 같은
     다시 그 Controller을 관찰한다.
 
 
-### Pub-Sub Pattern
+### 2. Pub-Sub Pattern
 
     publisher(발행자)가 이벤트(메세지)를 발행하여 Topic(Channel)에 저장하고 
     
@@ -78,7 +78,7 @@ MSA 로 개발 환경이 변화면서 공유 데이터베이스 계층과 같은
 ![1](https://user-images.githubusercontent.com/38696775/157141746-55cd809c-b6f5-4228-b02d-2530a5ff2a04.png)
 
 
-#### **Kafka의 Pub-Sub pattern**
+### **Kafka의 Pub-Sub pattern**
 
     Kafka에서는 Pub/Sub 을 Producer/Consumer라는 개념으로 Kafka에 맞게 재 구성되었다.
 
@@ -86,7 +86,7 @@ MSA 로 개발 환경이 변화면서 공유 데이터베이스 계층과 같은
     
     그 이후 Topic을 구독하고 있는 Consumer Group 내의 Sbucrier인 Consumer은 각각 1개 이상의 partition으로부터 이벤트를 가져온다.
 
-##### **주의점**
+#### **주의점**
     만약 partition 개수가 Consumer 보다 작으면, 아무일도 않하는 Consumer가 생기기에
 
     Partition 수를 Consumer보다 같거나 크게 해주는 것이 좋다.
