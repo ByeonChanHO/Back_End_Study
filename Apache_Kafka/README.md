@@ -112,9 +112,3 @@ MSA 로 개발 환경이 변화면서 공유 데이터베이스 계층과 같은
 https://www.redhat.com/ko/topics/integration/what-is-apache-kafka
 
 https://galid1.tistory.com/793
-
-이미지[1] : https://en.wikipedia.org/wiki/Observer_pattern
-
-https://medium.com/frientrip/pub-sub-%EC%9E%98-%EC%95%8C%EA%B3%A0-%EC%93%B0%EC%9E%90-de9dc1b9f739
-
-https://itnext.io/easy-patterns-decorator-eaa96c0550ea
