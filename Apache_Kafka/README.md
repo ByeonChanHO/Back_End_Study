@@ -70,6 +70,7 @@ MSA 로 개발 환경이 변화면서 공유 데이터베이스 계층과 같은
 
 
 ### Pub-Sub Pattern
+![1](https://user-images.githubusercontent.com/38696775/157141746-55cd809c-b6f5-4228-b02d-2530a5ff2a04.png)
 
 
 
