@@ -35,11 +35,13 @@
 
 ## Stream API의 동작 흐름
 1. Stream의 생성
-    Array 및 Collections instance 대상으로 Stream 생성
+    + Array 및 Collections instance 대상으로 Stream 생성
+
 2. 중간 연산
-    Filtering(필터링) 및 Mapping(맵핑)관련 연산.
+    + Filtering(필터링) 및 Mapping(맵핑)관련 연산.
+
 3. 최종 연산
-    Reduction(리덕션) 관련 연산
+    + Reduction(리덕션) 관련 연산
 
 ## 참조
 https://velog.io/@gjrjr4545
