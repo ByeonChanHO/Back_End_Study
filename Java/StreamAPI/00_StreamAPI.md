@@ -26,10 +26,10 @@
 ## Stream API의 특징
 
 1. 외부 반복을 통해 작업하는 Collection과는 달리 내부 반복(internal iteration)을 통해 작업을 수행
-    (즉, Collection은 반복문 또는 반복자를 써서 작업하는 반면, Stream은 안의 method로 작업 수행)
+    + (즉, Collection은 반복문 또는 반복자를 써서 작업하는 반면, Stream은 안의 method로 작업 수행)
 2. 재사용이 가능한 Collection과는 달리 일회용으로 단 한번만 사용이 가능하다.   
 3. 원본 데이터를 변경하짖 않는다.
-    (call by value 라고 생각하면 되지만 모든 것이 call by value는 아니다)
+    + (call by value 라고 생각하면 되지만 모든 것이 call by value는 아니다)
 4. 연산이 filter-map(필터-맵) 기반의 API를 사용하여 지연(lazy) 연산을 통해 성능을 최적화 한다.
 5. parallelStream() 메소들를 통한 손쉬운 병렬 처리를 지원
 

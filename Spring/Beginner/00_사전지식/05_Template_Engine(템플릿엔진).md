@@ -26,11 +26,11 @@
 
 ### **장점**
 1. 많은 코드를 줄일 수 있다.
-    (대부분의 Template Engine은 기존의 HTML에 비해서 간단한 문법을 사용)
+    + (대부분의 Template Engine은 기존의 HTML에 비해서 간단한 문법을 사용)
 2. 재사용성이 높다.
-    (똑같은 디자인을 쓸때 Template Engine 문법으로 만들어 놓은 데이터를 바꿕가면서 렌더링 해주면 된다.)
+    + (똑같은 디자인을 쓸때 Template Engine 문법으로 만들어 놓은 데이터를 바꿕가면서 렌더링 해주면 된다.)
 3. 유지보수가 용이하다.
-    (동일한 Template를 사용하면 Template과 데이터만 수정하면 끝)
+    + (동일한 Template를 사용하면 Template과 데이터만 수정하면 끝)
 
 
 ## Server Side Template Engine
