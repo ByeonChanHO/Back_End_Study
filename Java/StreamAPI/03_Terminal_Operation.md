@@ -124,7 +124,7 @@ stream2.average().ifPresent(System.out::println);   //50.6
     + 이 외에도 사용자가 직접 Collector 인터페이스를 구현하여 자신만의 수집 방법을 정의할 수 있다.
 
 #### 1. Stream을 배열이나 컬렉션으로 변화
-    + toArray(), toCollection(), toList(), toSet(), toMap()
++ toArray(), toCollection(), toList(), toSet(), toMap()
 
 2. 요소의 통계와 연산 메소드와 같은 동작을 수행
     + Counting(), maxBy(), minBy(), summingInt(), averagingInt() 등
