@@ -15,6 +15,7 @@ SELECT plot_id, species_id, sex FROM surveys;
 ### GQL
 1. GQL 은  Graph Query Language로 웹 클라이언트가 데이터를 서버로부터 효율적으로 가져오는 것을 목적으로 한다.
 2. 주로 클라이언트 시스템에서 작성하고 호출한다.
+3. 한번의 요청으로 데이터를 가지고 올 수 있다.
 
 ```GQL
 {
