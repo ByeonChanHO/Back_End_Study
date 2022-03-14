@@ -22,6 +22,19 @@ GQL(Graph Query Language)은 QL(쿼리 언어)로, 웹 클라이언트가 데이
 3. **단 한 개의 URL만 존재로 여러개의 URL을 통합**
     + 여러개의 URL로 나눠야하는 것을 하나의 URL로 만들 수 있다.
 
+## GraphQL 의 Operation type
+- **Query**
+    + 데이터 조회
+
+- **Mutation**
+    + 데이터 수정
+
+- **subscription**
+    + 주로 실시간 애플리케이션 구현을 위해 사용
+
+
+
+
 
 ## GQL vs SQL
 
