@@ -37,4 +37,6 @@ SELECT plot_id, species_id, sex FROM surveys;
 
 
 
-참조 : https://tech.kakao.com/2019/08/01/graphql-basic/
+## 참조
+https://tech.kakao.com/2019/08/01/graphql-basic/
+https://www.howtographql.com/basics/0-introduction/
