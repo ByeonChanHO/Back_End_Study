@@ -16,9 +16,9 @@
 
 ## API의 유형
 
-1) private API
-2) public API
-3) partner API
+1) **private API**
+2) **public API**
+3) **partner API**
 
 
 ## 참조
