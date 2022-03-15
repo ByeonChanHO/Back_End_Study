@@ -33,37 +33,43 @@ GQL(Graph Query Language)은 QL(쿼리 언어)로, 웹 클라이언트가 데이
     + 주로 실시간 애플리케이션 구현을 위해 사용
 
 
-
-
-
-## GQL vs SQL
-
-### SQL
-1. SQL 은 Structed Query Language 로 데이터베이스 시스템에 저장된 데이터를 효육적으로 가져오는 것을 목적으로 한다.
-2. 주로 백앤드 시스템에서 작성하고 호출
-
-```SQL
-SELECT plot_id, species_id, sex FROM surveys;
-```
-
-### GQL
-1. GQL 은  Graph Query Language로 웹 클라이언트가 데이터를 서버로부터 효율적으로 가져오는 것을 목적으로 한다.
-2. 주로 클라이언트 시스템에서 작성하고 호출한다.
-3. 한번의 요청으로 데이터를 가지고 올 수 있다.
-
+## GraphQL 사용법
 ```GQL
-{
-    hero {
-        name
-        friends{
-            name
-        }
+query{
+    req1 : getPhotos{
+        url
+        tag
+    }
+    req 2: getById(id:3){
+        id
+        url
+        tag
+    }
+    req3 : getByCategory(category:"animal"){
+        url
+        tag
     }
 }
 ```
++ **query**
+    + GraphQL의 operation type
+
++ **getPHotos**
+    + 호출할 API 명
+
++ **url** 과 **tag**
+    + 변수명
+
+
+## GraphQL 과 REST API
++ REST API
+    + 요청은 쉽지만 응답 받은 데이터는 비효율적
++ GraphQL
+    + 요청은 복잡하지만 응답 받은 데이터는 효적
+
 
 
 
 ## 참조
-https://tech.kakao.com/2019/08/01/graphql-basic/
-https://www.howtographql.com/basics/0-introduction/
+
+https://www.youtube.com/watch?v=xiE9-S7s9rs
