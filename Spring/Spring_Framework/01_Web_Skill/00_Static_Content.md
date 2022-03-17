@@ -7,4 +7,5 @@
     + 있는 그대로를 전달한다.
 
 ## 원리
+![1](https://user-images.githubusercontent.com/38696775/158737112-f4acef96-0379-49e7-8877-428d9ec01b9a.png)
 
