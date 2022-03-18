@@ -44,6 +44,7 @@
             + JUnit Platform
             + JUnit Jupiter
             + JUnit Vintage
+        + ![1](https://user-images.githubusercontent.com/38696775/158925115-3a9a1e10-c742-4cb8-9d8f-986d2632e450.png)
 
 2. java 및 Spring Boot 버전
     + **JUnit4**
@@ -57,7 +58,7 @@
 3. Annotation의 차이
     + 
     + 
-![1](https://user-images.githubusercontent.com/38696775/158925115-3a9a1e10-c742-4cb8-9d8f-986d2632e450.png)
+
 
 
 
