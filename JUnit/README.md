@@ -56,12 +56,13 @@
             + 2.2 버전 이후로는 다른 설정 없이 기본 starter-test로 의존성 추가해야한다.
 
 3. Annotation의 차이
-    + 
-    + 
 
+
+## JUint5 
 
 
 
 ## 참조
-https://velog.io/@ehddek/JUnit-%EC%9D%B4%EB%9E%80 (이미지 출처 및 설명)
+(이미지 출처 및 설명) https://velog.io/@ehddek/JUnit-%EC%9D%B4%EB%9E%80
+
 https://minkwon4.tistory.com/155
