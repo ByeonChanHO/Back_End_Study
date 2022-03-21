@@ -19,7 +19,7 @@
 1. **Mock 객체 의존성 주입**
     + Mockito 에서 Mock(가짜) 객체의 의존성 주입을 위해서는 크게 **3가지 Annotation**이 사용된다.
         + **@MOCK** : Mock 객체를 만들어 반환해주는 Annotation
-        + **@Spy** : Stub 하지 않는 메소드들을 원본 메소드 그대로 사용하는 Annotation
+        + **@Spy** : Stub 하지 않는 메소드들을 원본 메소드 그대로 사용하게 해주는 Annotation
         + **@InjectMocks**: @Mock 또는 @Spy 로 생성된 가짜 객체를 자동으로 주입시켜주는 Annotation
     + **(EX)** UserController 에 대한 단위 테스트를 작성하고자 할때, UserService를 사용하고 있다면 @MOCK로 가짜 UserService를 만들고, @InjectMocks를 통해 UserController에 이를 주입시킬 수 있다.
 
@@ -32,12 +32,18 @@
         + UserService의 findAllUser() 호출 시에 빈 ArrayList를 반환해야 한다면 다음과 같이 doReturn()을 사용할 수 있다.
 
 3. **Mockito 와 Junit의 결합**
-    + Mockito 도 Testing framework이기 떄문에 JUnit과 결합하기 위해서 별도의 작업이 필요하다.
+    + Mockito 도 Testing framework이기 떄문에 JUnit과 결합하여 **Annotation을 쓰기 위해**서는 별도의 작업이 필요하다.
         + **JUnit4** 에서 Mockito 활용
-            + **@RunWith(MockitoJUnitRunner.class)**을 Class Annotation으로 붙여줘야한다.
+            + **@RunWith(MockitoJUnitRunner.class)** 을 Class Annotation으로 붙여줘야한다.
         + **JUnit5** 에서 Mockito 활용
             + **@ExtendWith(MockitoExtension.class)** 를 사용
 
+## [Mockito의 디테일 점]
+
+1. **Mockito**
+    + Answers.RETURNS_DEFAULTS을 전략을 쓰고 있다.
+        + 즉, stub가 되지 않은 메소드들은 Mockito에서 타입별로 정의된 return 값을 주어 메소드를 실행시킨다.
+    
 
 ## 참조
 https://mangkyu.tistory.com/145
