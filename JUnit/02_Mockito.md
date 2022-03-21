@@ -19,7 +19,7 @@
 1. **Mock 객체 의존성 주입**
     + Mockito 에서 Mock(가짜) 객체의 의존성 주입을 위해서는 크게 **3가지 Annotation**이 사용된다.
         + **@MOCK** : Mock 객체를 만들어 반환해주는 Annotation
-        + **@Spy** : Stub 하지 않는 메소드들을 원본 메소드 그대로 사용하는 Annotation
+        + **@Spy** : Stub 하지 않는 메소드들을 원본 메소드 그대로 사용하게 해주는 Annotation
         + **@InjectMocks**: @Mock 또는 @Spy 로 생성된 가짜 객체를 자동으로 주입시켜주는 Annotation
     + **(EX)** UserController 에 대한 단위 테스트를 작성하고자 할때, UserService를 사용하고 있다면 @MOCK로 가짜 UserService를 만들고, @InjectMocks를 통해 UserController에 이를 주입시킬 수 있다.
 
