@@ -19,9 +19,10 @@ public class MockitoTests {
         orderService = new OrderService(orderRepository, notificationClient);
 
         Mockito.when(orderRepository.findOrderList()).then(invocation -> {
-            System.out.println("I'm mock orderRepository");
+            System.out.println("I'm mock orderRepository!!");
             return Collections.emptyList();
         });
+
         Mockito.doAnswer(invocation -> {
             System.out.println("I'm mock notificationclient");
             return null;
