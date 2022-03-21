@@ -34,7 +34,7 @@
 3. **Mockito 와 Junit의 결합**
     + Mockito 도 Testing framework이기 떄문에 JUnit과 결합하기 위해서 별도의 작업이 필요하다.
         + **JUnit4** 에서 Mockito 활용
-            + **@RunWith(MockitoJUnitRunner.class)**을 Class Annotation으로 붙여줘야한다.
+            + **@RunWith(MockitoJUnitRunner.class)** 을 Class Annotation으로 붙여줘야한다.
         + **JUnit5** 에서 Mockito 활용
             + **@ExtendWith(MockitoExtension.class)** 를 사용
 
