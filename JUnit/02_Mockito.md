@@ -38,6 +38,12 @@
         + **JUnit5** 에서 Mockito 활용
             + **@ExtendWith(MockitoExtension.class)** 를 사용
 
+## [Mockito의 디테일 점]
+
+1. **Mockito**
+    + Answers.RETURNS_DEFAULTS을 전략을 쓰고 있다.
+        + 즉, stub가 되지 않은 메소드들은 Mockito에서 타입별로 정의된 return 값을 주어 메소드를 실행시킨다.
+    
 
 ## 참조
 https://mangkyu.tistory.com/145
