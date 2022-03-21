@@ -32,7 +32,7 @@
         + UserService의 findAllUser() 호출 시에 빈 ArrayList를 반환해야 한다면 다음과 같이 doReturn()을 사용할 수 있다.
 
 3. **Mockito 와 Junit의 결합**
-    + Mockito 도 Testing framework이기 떄문에 JUnit과 결합하기 위해서 별도의 작업이 필요하다.
+    + Mockito 도 Testing framework이기 떄문에 JUnit과 결합하여 **Annotation을 쓰기 위해**서는 별도의 작업이 필요하다.
         + **JUnit4** 에서 Mockito 활용
             + **@RunWith(MockitoJUnitRunner.class)** 을 Class Annotation으로 붙여줘야한다.
         + **JUnit5** 에서 Mockito 활용
