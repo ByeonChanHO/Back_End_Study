@@ -30,7 +30,8 @@
         + **doThrow()** :  메소드 호출 후 예외를 발생시킬 경우
         + **doAnswer()** : 메소드 호출 후 어떤 작업을 할지 custom 하는 경우우
         + **doCallRealMethod()** : 실제 메소드 호출 경우
-![image](https://user-images.githubusercontent.com/38696775/159392593-dc854f71-aa8a-4c11-8874-fd07384557db.png)
+        ![image](https://user-images.githubusercontent.com/38696775/159392692-beafa0f3-9f0a-4af5-9c89-226935f5b2e6.png)
+
 
     + **(EX)** doReturn(new ArrayList()).when(userSrtvice).findAllUser();
         + UserService의 findAllUser() 호출 시에 빈 ArrayList를 반환해야 한다면 다음과 같이 doReturn()을 사용할 수 있다.
