@@ -25,9 +25,13 @@
 
 2. **Stub로 결과 처리**
     + **의존성이 있는 객체는 가짜 객체(Mock Object)를 주입하여 어떤 결과를 반환하라고 정해진 답변을 준비**해야한다. 이러한 기능을 Mockito 안에 있는 **stub 메소드**가 제공한다.
-        + **doReturn()** : Mock 객체가 특정한 값을 반환해야하는 경우
-        + **doNothing()** : Mock 객체가 아무 것도 반환하지 않는 경우(void)
-        + **doThrow()** : Mock 객체가 예외를 발생시킬 경우
+        + **doReturn()** : 메소드 호출 후 특정한 값을 반환 해야하는 경우
+        + **doNothing()** : 메소드 호출 후 아무 것도 반환하지 않는 경우
+        + **doThrow()** :  메소드 호출 후 예외를 발생시킬 경우
+        + **doAnswer()** : 메소드 호출 후 어떤 작업을 할지 custom 하는 경우우
+        + **doCallRealMethod()** : 실제 메소드 호출 경우
+![image](https://user-images.githubusercontent.com/38696775/159392593-dc854f71-aa8a-4c11-8874-fd07384557db.png)
+
     + **(EX)** doReturn(new ArrayList()).when(userSrtvice).findAllUser();
         + UserService의 findAllUser() 호출 시에 빈 ArrayList를 반환해야 한다면 다음과 같이 doReturn()을 사용할 수 있다.
 
