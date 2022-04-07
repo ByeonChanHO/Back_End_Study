@@ -24,10 +24,26 @@ public class SpyTests {
     @Test
     public void createOrderTest_basic() {
         // given
+
+        //doReturn() 경우
+        Mockito.doReturn(null).when(orderRepository).createOrder();
+
+        //doNothing() 경우
+        Mockito.doNothing().when(orderRepository).createOrder();
+
+        //doThrow() 경우
+        Mockito.doThrow(new RuntimeException()).when(orderRepository).createOrder();
+
+        //doAnswer() 경우
         Mockito.doAnswer(invocation -> {
             System.out.println("I'm spy orderRepository createOrder");
             return null;
         }).when(orderRepository).createOrder();
+
+        //thenCallRealMethod() 경우
+        Mockito.doCallRealMethod().when(orderRepository).createOrder();
+
+
         Mockito.doAnswer(invocation -> {
             System.out.println("I'm spy notificationclient");
             return null;
