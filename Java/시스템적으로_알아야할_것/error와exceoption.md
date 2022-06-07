@@ -12,3 +12,9 @@
 
 
 ## 2. 예외 클래스
+![1](https://user-images.githubusercontent.com/38696775/172399248-d3409a1d-a000-460f-9e0e-aab9c08b9d2d.png)
+
+
+
+## 참조
+https://www.nextree.co.kr/p3239/#:~:text=Error%EB%8A%94%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%A0%88%EB%B2%A8%EC%9D%98,%EC%9E%90%EC%8B%9D%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A5%BC%20%EA%B0%80%EC%A7%80%EA%B3%A0%20%EC%9E%88%EB%8B%A4.
