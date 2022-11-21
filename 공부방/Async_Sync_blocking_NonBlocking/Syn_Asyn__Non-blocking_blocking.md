@@ -37,9 +37,25 @@
 >>  Non-blocking은 다른 주췌의 작업에 관련없이 자신의 작업을 하는 것
 >>
 >>   즉, 함수 A가 B를 호출할때 B가 작업하고 있는 동안 A은 다른 작업을 할 수 있다.
+------------------------------------------------------------------------------------------
 
+> # Sync & Async 와 Blocking & Non-Blocking 조합
+>
+> ![1](https://user-images.githubusercontent.com/38696775/157169912-6661b933-e459-4c97-bd70-3a0f91b66c4d.png)
+>
+>> ## Sync-Blocking
+>> <img align="left" width="500" height="500" src = "https://user-images.githubusercontent.com/38696775/203093123-5af12c9c-245a-4c79-9f53-0f51505593c5.png"/>
+>> 
+>> ## Sync-Non_Blocking
+>> 
+>> ## Async-Blocking
+>> 
+>> <img align="left" width="500" height="500" src = "https://user-images.githubusercontent.com/38696775/203095529-8ee91881-a8c8-496b-8b99-cae19c0b95d8.png" />
+>> 
+>> ## Async-Non_Blocking
+>> 
+>> <img align="left" width="500" height="500" src = "https://user-images.githubusercontent.com/38696775/203095979-07060f47-eace-4868-99f6-11eb5e32532b.png" />
 
-![1](https://user-images.githubusercontent.com/38696775/157169912-6661b933-e459-4c97-bd70-3a0f91b66c4d.png)
 
 
 
