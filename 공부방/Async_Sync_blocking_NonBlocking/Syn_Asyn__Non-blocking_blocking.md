@@ -97,24 +97,21 @@
 >> <img align="right" width="500" height="500" src = "https://user-images.githubusercontent.com/38696775/203095529-8ee91881-a8c8-496b-8b99-cae19c0b95d8.png" />
 >> <br>
 >> <br>
+>> <br>
 >> Worker A는 Worker B의 리턴값에 신경쓰지 않고, <strong>콜백함수를 보낸다(Async)</strong>
->> 
+>> <br>
+>> <br>
+>> <br>
 >> 그런데, Worker B의 작업에 관심이 없으며, <strong> Worker A는 Worker B에게 제어권을 넘긴다(Blocking)</strong>
->> 
+>> <br>
+>> <br>
+>> <br>
 >> Worker A는 자신과 관련 없는 Worker B의 작업이 끝날때까지 기다려야한다.
->> 
 >> <br>
 >> <br>
 >> <br>
->> <br>
->> <br>
->> <br>
->> <br>
->> <br>
->> <br>
->> <br>
->> <br>
->> <br>
+>> <strong> [ 그림 예시 ] </strong>
+>> https://github.com/ByeonChanHO/Back_End_Study/blob/main/%EA%B3%B5%EB%B6%80%EB%B0%A9/Async_Sync_blocking_NonBlocking/Async_Blocking.md
 >> <br>
 >> <br>
 >> 
