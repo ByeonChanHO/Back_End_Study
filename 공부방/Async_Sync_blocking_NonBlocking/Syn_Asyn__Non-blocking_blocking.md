@@ -119,21 +119,20 @@
 >> 
 >> <img align="right" width="500" height="500" src = "https://user-images.githubusercontent.com/38696775/203095979-07060f47-eace-4868-99f6-11eb5e32532b.png" />
 >> 
+>> <br>
+>> <br>
+>> <br>
 >> Worker B는 <strong>제어권을 주지 않고, 자신이 계속 가지고 있는다.</strong> 따라서 Worker B를 호출한 이후에도 멈추지 않고 자신의 코드를 계속 실행한다.에게 제어권을 주지 않고, <strong> 자신의 코드를 계속 실행한다(Non-Blocking)</strong>
->>
+>> <br>
+>> <br>
+>> <br>
 >> Worker B를 호출할떄 콜백함수를 함께 준다. Worker B는 <strong>자신의 작업이 끝나면 Worker A가 준 콜백 함수를 실행한다(Async)</strong>
 >> <br>
 >> <br>
 >> <br>
 >> <br>
->> <br>
->> <br>
->> <br>
->> <br>
->> <br>
->> <br>
->> <br>
->> <br>
+>> <strong> [ 그림 예시 ] </strong>
+>> https://github.com/ByeonChanHO/Back_End_Study/blob/main/%EA%B3%B5%EB%B6%80%EB%B0%A9/Async_Sync_blocking_NonBlocking/Async_Non-Blocking.md
 >> <br>
 >> <br>
 >> <br>
