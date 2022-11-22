@@ -56,8 +56,8 @@
 >> <br>
 >> <br>
 >> <br>
->> <br>
->> <br>
+>> **[그림 예시]**
+>> https://github.com/ByeonChanHO/Back_End_Study/blob/main/%EA%B3%B5%EB%B6%80%EB%B0%A9/Async_Sync_blocking_NonBlocking/Sync_Blocking.md
 >> <br>
 >> <br>
 >> <br>
