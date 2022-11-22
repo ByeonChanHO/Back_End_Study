@@ -29,3 +29,12 @@
 >>이때 Blcoking Sync 상사는 사원에게 서류 결과(상사의 일의 결과)주며 사원의 행동에 대한 제어권을 명령으로 다시 되돌려줍니다
 
 ------------------------
+
+>> ## 참고 자료
+>> ![image](https://user-images.githubusercontent.com/38696775/203347803-8dccf03e-dfeb-4230-95b9-9508a86875ef.png)
+
+
+
+
+## 참조
+https://www.youtube.com/watch?v=oEIoqGd-Sns
