@@ -44,17 +44,103 @@
 > ![1](https://user-images.githubusercontent.com/38696775/157169912-6661b933-e459-4c97-bd70-3a0f91b66c4d.png)
 >
 >> ## Sync-Blocking
->> <img align="left" width="500" height="500" src = "https://user-images.githubusercontent.com/38696775/203093123-5af12c9c-245a-4c79-9f53-0f51505593c5.png"/>
+>> <img align="right" width="500" height="500" src = "https://user-images.githubusercontent.com/38696775/203093123-5af12c9c-245a-4c79-9f53-0f51505593c5.png"/>
+>> <br>
+>> <br>
+>> <br>
+>> Worker A는 Woerker B의 <strong>리턴값을 필요로 한다(Sync)</strong>
+>><br>
+>><br>
+>><br>
+>> 제어권을 Worker B에게 넘겨주고, Worker B가 실행을 완료하여 리턴값과 <strong>제어권을 돌려 줄때까지 기다린다(Blocking)</strong>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
 >> 
 >> ## Sync-Non_Blocking
 >> 
+>> <img align="right" width="500" height="500" src = "https://user-images.githubusercontent.com/38696775/203315172-e84c771c-e4e7-41f5-b994-09e5592f6831.png" />
+>>
+>> Worker A는 Worker B에게 제어권을 주지 않고, <strong> 자신의 코드를 계속 실행한다(Non-Blocking)</strong>
+>>
+>> Worker A는 Worker B의 리턴 값이 필요하기 때문에, <strong>중간중간 Worker B에게 함수 실행을 완료했는지 물어본다(Sync)</strong>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> 
 >> ## Async-Blocking
 >> 
->> <img align="left" width="500" height="500" src = "https://user-images.githubusercontent.com/38696775/203095529-8ee91881-a8c8-496b-8b99-cae19c0b95d8.png" />
+>> <img align="right" width="500" height="500" src = "https://user-images.githubusercontent.com/38696775/203095529-8ee91881-a8c8-496b-8b99-cae19c0b95d8.png" />
+>> <br>
+>> <br>
+>> Worker A는 Worker B의 리턴값에 신경쓰지 않고, <strong>콜백함수를 보낸다(Async)</strong>
+>> 
+>> 그런데, Worker B의 작업에 관심이 없으며, <strong> Worker A는 Worker B에게 제어권을 넘긴다(Blocking)</strong>
+>> 
+>> Worker A는 자신과 관련 없는 Worker B의 작업이 끝날때까지 기다려야한다.
+>> 
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
 >> 
 >> ## Async-Non_Blocking
 >> 
->> <img align="left" width="500" height="500" src = "https://user-images.githubusercontent.com/38696775/203095979-07060f47-eace-4868-99f6-11eb5e32532b.png" />
+>> <img align="right" width="500" height="500" src = "https://user-images.githubusercontent.com/38696775/203095979-07060f47-eace-4868-99f6-11eb5e32532b.png" />
+>> 
+>> Worker B는 <strong>제어권을 주지 않고, 자신이 계속 가지고 있는다.</strong> 따라서 Worker B를 호출한 이후에도 멈추지 않고 자신의 코드를 계속 실행한다.에게 제어권을 주지 않고, <strong> 자신의 코드를 계속 실행한다(Non-Blocking)</strong>
+>>
+>> Worker B를 호출할떄 콜백함수를 함께 준다. Worker B는 <strong>자신의 작업이 끝나면 Worker A가 준 콜백 함수를 실행한다(Async)</strong>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+>> <br>
+
 
 
 
@@ -62,3 +148,4 @@
 
 ## 이미지 출처 및 참조
 https://jh-7.tistory.com/
+https://inpa.tistory.com/entry/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-%EB%8F%99%EA%B8%B0%EB%B9%84%EB%8F%99%EA%B8%B0-%EB%B8%94%EB%A1%9C%ED%82%B9%EB%85%BC%EB%B8%94%EB%A1%9C%ED%82%B9-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC
