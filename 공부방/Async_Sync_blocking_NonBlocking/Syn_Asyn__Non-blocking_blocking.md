@@ -56,7 +56,7 @@
 >> <br>
 >> <br>
 >> <br>
->> **[그림 예시]**
+>> <strong> [ 그림 예시 ] </strong>
 >> https://github.com/ByeonChanHO/Back_End_Study/blob/main/%EA%B3%B5%EB%B6%80%EB%B0%A9/Async_Sync_blocking_NonBlocking/Sync_Blocking.md
 >> <br>
 >> <br>
@@ -71,8 +71,12 @@
 >> ## Sync-Non_Blocking
 >> 
 >> <img align="right" width="500" height="500" src = "https://user-images.githubusercontent.com/38696775/203315172-e84c771c-e4e7-41f5-b994-09e5592f6831.png" />
->>
+>> <br>
+>> <br>
+>> <br>
 >> Worker A는 Worker B에게 제어권을 주지 않고, <strong> 자신의 코드를 계속 실행한다(Non-Blocking)</strong>
+>> <br>
+>> <br>
 >>
 >> Worker A는 Worker B의 리턴 값이 필요하기 때문에, <strong>중간중간 Worker B에게 함수 실행을 완료했는지 물어본다(Sync)</strong>
 >> <br>
@@ -80,11 +84,8 @@
 >> <br>
 >> <br>
 >> <br>
->> <br>
->> <br>
->> <br>
->> <br>
->> <br>
+>> <strong> [ 그림 예시 ] </strong>
+>> https://github.com/ByeonChanHO/Back_End_Study/blob/main/%EA%B3%B5%EB%B6%80%EB%B0%A9/Async_Sync_blocking_NonBlocking/Sync_Non-Blocking.md
 >> <br>
 >> <br>
 >> <br>
