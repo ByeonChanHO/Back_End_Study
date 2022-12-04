@@ -9,3 +9,4 @@
 >> 여기서 당연하게 Event Bus 라는 게 주목이 되는데요
 >> 
 >> 
+아마존에서 Event Bus 는 Event router 로
