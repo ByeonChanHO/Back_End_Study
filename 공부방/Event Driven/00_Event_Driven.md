@@ -18,5 +18,5 @@
 >>> 
 >>> 즉, 특정 서비스들이 이벤트들을 생산하여 기록하고 이를 처리할 서비스들이 기록된 이벤트를 감지하고 가져가 작업을 하는 방식입니다.
 >>> 
->>> [(URL)](https://github.com/ByeonChanHO/Back_End_Study/blob/main/%EA%B3%B5%EB%B6%80%EB%B0%A9/Event%20Driven/02_EDA.md)
+>>> [(Event Driven Architecture)](https://github.com/ByeonChanHO/Back_End_Study/blob/main/%EA%B3%B5%EB%B6%80%EB%B0%A9/Event%20Driven/02_EDA.md)
 
