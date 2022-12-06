@@ -25,6 +25,7 @@
 >>> 테이블 Join을 통한 통합 뷰 제공 불가
 >>> 
 >>> [ACID](https://github.com/ByeonChanHO/Back_End_Study/blob/main/%EA%B3%B5%EB%B6%80%EB%B0%A9/Event%20Driven/ACID.md) 원칙에 따른 트랜잭션 기능 고려
+>>> 
 >>> [여담] [Shared 관계형 DB 문제점](https://github.com/ByeonChanHO/Back_End_Study/tree/main/%EA%B3%B5%EB%B6%80%EB%B0%A9/Event%20Driven)
 >> 3. DB Oriented System
 >> 
