@@ -38,3 +38,6 @@
 >> 
 >> 5. 기존 DBMS 에 최적화된 각종 세팅 재설정
 >> 
+
+## 참조
+https://medium.com/dtevangelist/event-driven-microservice-%EB%9E%80-54b4eaf7cc4a
