@@ -26,7 +26,7 @@
 >>> 
 >>> [ACID](https://github.com/ByeonChanHO/Back_End_Study/blob/main/%EA%B3%B5%EB%B6%80%EB%B0%A9/Event%20Driven/ACID.md) 원칙에 따른 트랜잭션 기능 고려
 >>> 
->>> [여담] [Shared 관계형 DB 문제점](https://github.com/ByeonChanHO/Back_End_Study/tree/main/%EA%B3%B5%EB%B6%80%EB%B0%A9/Event%20Driven)
+>>> [여담] [Shared 관계형 DB 문제점](https://github.com/ByeonChanHO/Back_End_Study/blob/main/%EA%B3%B5%EB%B6%80%EB%B0%A9/Event%20Driven/Shared%20Database%20%EB%AC%B8%EC%A0%9C%EC%A0%90.md)
 >> 3. DB Oriented System
 >> 
 >>> 처음부터 Database 스키마/테이블 설계
