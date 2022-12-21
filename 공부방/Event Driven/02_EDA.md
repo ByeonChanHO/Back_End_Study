@@ -6,7 +6,9 @@
 >> 
 >> 즉, 하나의 큰 애플리케이션을 여러개의 작은 애플리케이션으로 쪼개어 변경과 조합이 가능하도록 만든 아키텍쳐입니다.
 >> 
->> 하지만 MSA 방식은 문제점이 존재했는데요
+>> 하지만 MSA 방식에는 문제점이 존재했는데요
+>> 
+>> 바로 [Database Per Service](https://github.com/ByeonChanHO/Back_End_Study/blob/main/%EA%B3%B5%EB%B6%80%EB%B0%A9/Event%20Driven/Database%20Per%20Service%EB%A1%9C%20%EC%A0%84%ED%99%98.md) 를 적용하게 되면서 나타나는 문제점입니다
 >> 
 >> ### [ MSA 문제점 ]
 >>> <strong>[ 비즈니스 흐름 수행 문제 ]</strong>
