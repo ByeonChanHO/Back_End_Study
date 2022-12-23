@@ -80,3 +80,4 @@
 
 ## 참고
 https://www.samsungsds.com/kr/insights/msa_architecture_edm.html#:~:text=Event%20Driven%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EB%8A%94%20%ED%8A%B9%EC%A0%95,%EC%9D%84%20%EC%88%98%ED%96%89%ED%95%A0%20%EC%88%98%20%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4.
+https://cloud.google.com/eventarc/docs/event-driven-architectures?hl=ko.
