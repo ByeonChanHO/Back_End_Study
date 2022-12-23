@@ -75,8 +75,7 @@
 >>  이벤트 데이터를 저장하고 해당 데이터를 Event Consumer에게 전파하는 역할
 >> 3. Event Consumer(Processor)
 >>  수신된 이벤트 데이터를 식별하고 처리하는 역
->> 
-아마존에서 Event Bus 는 Event router 로
+>> ![image](https://user-images.githubusercontent.com/38696775/209245970-bbabe746-0c90-421d-b2bd-b1610a7a83ac.png)
 
 
 ## 참고
