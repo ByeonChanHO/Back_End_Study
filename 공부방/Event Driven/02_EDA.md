@@ -28,7 +28,24 @@
 >> <strong> [주의 특성] </strong> 
 >>> 
 >>> Event Producer은 단지 이벤트를 재구성해서 Channel로 보낼 뿐, 어떤 소비자가 이 이벤트를 가져가는지 모르고, Event Consumer도 이벤트를 가져올뿐 누가 생산하는지는 서로 모르는 구조이다. 
+> ## [이벤트 기반 아키텍처 모델]
+>> pub/sub 모델과 Event streaming 모델 총 2가지의 이벤트 기반 아키텍처가 존재한다.
+>> ### [Pub / Sub Model]
+>>> 이벤트 스트림 구독 기반의 메시징 infrasture 로 이벤트 발생 후 또는 게시 후에 알림을 받아야하는 구독자한테 바로 이벤트가 전송됩니다.
+>> ### [ Event Streaming Model ]
+>> Event Streaming Model 을 사용하게 되면 이벤트가 로그에 기록이 됩니다.
+>> 또한, 이벤트 소비자는 이벤트 스트림을 구독하지 않습니다
+>> 스트림의 모든 부분에서 읽기가 가능하며 언제든지 스트림에 참여 가능
+>>> [ Event Streaming 유형]
+>>>> 1. Event stream processing
+>>>>> Apache Kafka 와 같이 데이터 스트림 플랫폼을 사용하여 이벤트 스트림을 처리 또는 운송하는 걸 뜻한다.
+>>>> 2. Simple event processing
+>>>>> 이벤트가가 즉시 소비자 행동 트리거가 된다.
+>>>> 3. Complex event processing
+>>>>> 감지하기 위해 소비자는 이벤트를 처리해야한다?
+> ## [이점]
 >> 
+
 
 
 
