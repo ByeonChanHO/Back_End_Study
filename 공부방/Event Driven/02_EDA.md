@@ -14,14 +14,23 @@
 >>  
 > ## [구성요소]
 >> 
->> Event Driven Architecture 는 Event producer와 Event consumer 로 구성
+>> Event Driven Architecture 는 Event producer와 Event consumer, Event Channels 로 구성
 >> 
 >> ![image](https://user-images.githubusercontent.com/38696775/212904950-b32aa6e6-df5b-4eee-bf79-d09cc6f77ddd.png)
 >> 
->> Event Producer : 이벤트를 감지하며 해당 이벤트를 메시지로 재표시하는 역할(즉, 이벤트 알림을 생성하는 역할)
+>> Event Producer : 이벤트를 감지하며 해당 이벤트를 메시지로 재구성하여 보내는 역할
 >> 
 >> Evnet Consumer : 해당 이벤트의 알림을 받아, 해당 이벤트를 가져와 처리하는 역할
 >> 
+>> Event Channels : 이벤트를 생성자에서 소비자로 옮기는 역할을 하며 해당 이벤트 처리를 비동기적으로 수행한다.
+>> 
+>> 
+>> <strong> [주의 특성] </strong> 
+>>> 
+>>> Event Producer은 단지 이벤트를 재구성해서 Channel로 보낼 뿐, 어떤 소비자가 이 이벤트를 가져가는지 모르고, Event Consumer도 이벤트를 가져올뿐 누가 생산하는지는 서로 모르는 구조이다. 
+>> 
+
+
 
 
 
