@@ -5,10 +5,33 @@
 >>          <img src = "https://user-images.githubusercontent.com/38696775/205497363-e33c5a90-fd78-4b19-90fd-a743ad6454b1.png"/>
 >> </p>
 >>                                                                                                                                           
->> Event Driven Architecture 이란 이벤트를 중심으로 생산,감지,소비을 돌아가는 아키텍쳐이다
+>> Event Driven Architecture 이란 이벤트를 중심으로 생산, 소비을 돌아가는 아키텍쳐이다
+>>
+> ## [이벤트란?]
+>>  시스템 하드웨어 또는 소프트웨어 상태의 변화 또는 중대 사건의 발생을 의미합니다
+>>  
+>>  즉, 마우스 클릭, 키보드 입력, 데이터 변화 등이 될 수 있습니다.
+>>  
+> ## [구성요소]
 >> 
->> 즉, 이벤트 생성자가 이벤트를 발행하면 소비자는 이를 감지하고 가져가서 그 이벤트를 처리하는 방식의 Architecture이다.
+>> Event Driven Architecture 는 Event producer와 Event consumer 로 구성
 >> 
+>> ![image](https://user-images.githubusercontent.com/38696775/212904950-b32aa6e6-df5b-4eee-bf79-d09cc6f77ddd.png)
+>> 
+>> Event Producer : 이벤트를 감지하며 해당 이벤트를 메시지로 재표시하는 역할(즉, 이벤트 알림을 생성하는 역할)
+>> 
+>> Evnet Consumer : 해당 이벤트의 알림을 받아, 해당 이벤트를 가져와 처리하는 역할
+>> 
+
+
+
+
+
+
+
+
+
+
 > ## [ 배경 ]
 >> Event Driven Architecture는 MSA의 문제점을 보완하고자 나온 구조입니다
 >> 
