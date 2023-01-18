@@ -5,7 +5,7 @@
 >>          <img src = "https://user-images.githubusercontent.com/38696775/205497363-e33c5a90-fd78-4b19-90fd-a743ad6454b1.png"/>
 >> </p>
 >>                                                                                                                                           
->> Event Driven Architecture 이란 이벤트를 중심으로 생산, 소비을 돌아가는 아키텍쳐이다
+>> Event Driven Architecture 이란 이벤트를 중심으로 생산, 소비으 돌아가는 아키텍쳐이다
 >>
 > ## [이벤트란?]
 >>  시스템 하드웨어 또는 소프트웨어 상태의 변화 또는 중대 사건의 발생을 의미합니다
