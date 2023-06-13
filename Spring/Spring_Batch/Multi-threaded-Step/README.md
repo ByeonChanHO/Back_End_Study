@@ -1,5 +1,14 @@
 ![image](https://github.com/ByeonChanHO/Back_End_Study/assets/38696775/077c8b8a-1114-49d4-8a2e-ed820a28fe8d)
 
+![image](https://github.com/ByeonChanHO/Back_End_Study/assets/38696775/8feedaca-31e9-40ba-924c-3a2b61512633)
+![image](https://github.com/ByeonChanHO/Back_End_Study/assets/38696775/0ff26d72-56a6-44f1-b2eb-16b8ff088541)
+
+
+
+[ChunkorientedTasklet]
+![image](https://github.com/ByeonChanHO/Back_End_Study/assets/38696775/50c54d32-a1be-40ba-90be-b4d51bbf334a)
+
+
 
 ## 문제점
 + 새로운 Thread가 생성되어 실행될 경우가 있다
