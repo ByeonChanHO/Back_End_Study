@@ -62,4 +62,7 @@
       - Step 의 실행동안 여러가지 상태정보, 고유 데이터를 직렬화(Json 형식) 해서 저장
       - Step 별로 저장되며 Step 간 서로 공유할 수 없음
 
-
+> # 참고
+> https://coding-factory.tistory.com/216
+> https://blogshine.tistory.com/527
+> hikari
