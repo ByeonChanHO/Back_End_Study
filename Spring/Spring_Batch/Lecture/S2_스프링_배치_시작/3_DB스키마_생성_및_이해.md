@@ -62,6 +62,12 @@
       - Step 의 실행동안 여러가지 상태정보, 고유 데이터를 직렬화(Json 형식) 해서 저장
       - Step 별로 저장되며 Step 간 서로 공유할 수 없음
 
+# 알고 가면 좋은 것
+> 설정 파일인 application yml 에서 각 목적에 따른 설정 방식을 따로 분리해서 저장할 수 있다. 그게 spring.active.profile 이라는 것인데, 이걸 처음에 application.yml 에 적고 현재 적용하고 싶은 설정의 profile 이름을 적으면 된다.
+> 
+> 각 설정에는 spring.config.activate.on-profile 로 이름을 짓고 그 밑에 spring.* 로 설정하면 된다.
+
+
 > # 참고
 > https://coding-factory.tistory.com/216
 > https://blogshine.tistory.com/527
