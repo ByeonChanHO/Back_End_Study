@@ -31,3 +31,8 @@
                 : 운영에서 수동으로 스크립트 생성 후 설정하는 것을 권장
   > 
   
+### - DB 스키마 테이블 구조
+
+  > <img align="right" width="600" height="600" src = "[https://github.com/ByeonChanHO/Back_End_Study/assets/38696775/e549fb8d-390f-4981-bfcf-77675bddd056.png]" />
+
+
