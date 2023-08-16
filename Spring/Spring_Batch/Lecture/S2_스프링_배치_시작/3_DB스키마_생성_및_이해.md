@@ -37,8 +37,8 @@
 >
 >
 >
-> #### **Job 관련 테이블**
->
+> #### **Job 관련 테이블** 
+> 
     Batch_Job_Instance
       - Job 이 실행될 때 JobInstance 정보가 저장되며 job_nam과 job_key를 키로 하여 하나의 데이터가 저장
       - 동일한 job_name 과 job_key 로 중복 저장될 수 없다.(즉, job_name과 job_key 는 유니크한 값으로 설정됨)
@@ -61,6 +61,8 @@
     Batch_Step_Execution_Context
       - Step 의 실행동안 여러가지 상태정보, 고유 데이터를 직렬화(Json 형식) 해서 저장
       - Step 별로 저장되며 Step 간 서로 공유할 수 없음
+
+> https://github.com/ByeonChanHO/Back_End_Study/blob/main/Spring/Spring_Batch/Lecture/S2_%EC%8A%A4%ED%94%84%EB%A7%81_%EB%B0%B0%EC%B9%98_%EC%8B%9C%EC%9E%91/DB_%EC%8A%A4%ED%82%A4%EB%A7%88_%EB%A9%94%ED%83%80_%ED%85%8C%EC%9D%B4%EB%B8%94.md
 
 # 알고 가면 좋은 것
 > 설정 파일인 application yml 에서 각 목적에 따른 설정 방식을 따로 분리해서 저장할 수 있다. 그게 spring.active.profile 이라는 것인데, 이걸 처음에 application.yml 에 적고 현재 적용하고 싶은 설정의 profile 이름을 적으면 된다.
