@@ -32,7 +32,34 @@
   > 
   
 ### - DB 스키마 테이블 구조
+> ![image](https://github.com/ByeonChanHO/Back_End_Study/assets/38696775/9e8932e5-b5f0-49b6-9364-1d644371c48c)
+>
+>
+>
+>
+> #### **Job 관련 테이블**
+>
+    Batch_Job_Instance
+      - Job 이 실행될 때 JobInstance 정보가 저장되며 job_nam과 job_key를 키로 하여 하나의 데이터가 저장
+      - 동일한 job_name 과 job_key 로 중복 저장될 수 없다.(즉, job_name과 job_key 는 유니크한 값으로 설정됨)
 
-  > <img align="right" width="600" height="600" src = "[https://github.com/ByeonChanHO/Back_End_Study/assets/38696775/e549fb8d-390f-4981-bfcf-77675bddd056.png]" />
+    Batch_Job_Execution
+      - job의 실행정보가 저장되며 Job 생성, 시작, 종료 시간, 실행상태, 메시지 등을 관리
+
+    Batch_Job_Execution_Params
+      - Job과 함께 실행되는 JobParameter 정보를 저장
+
+    Batch_Job_Execution_Context
+      - Job 의 실행동안 여러가지 상태정보, 공유 데이터를 직렬화 (Json 형식) 해서 저장
+      - Step 간 서로 공유 가능
+
+> #### **Step 관련 테이블**
+>
+    Batch_Step_Execution
+      - Step 의 실행정보가 저장되며 생성, 시작, 종료시간, 실행상태, 메시지 등을 관리
+
+    Batch_Step_Execution_Context
+      - Step 의 실행동안 여러가지 상태정보, 고유 데이터를 직렬화(Json 형식) 해서 저장
+      - Step 별로 저장되며 Step 간 서로 공유할 수 없음
 
 
