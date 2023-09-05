@@ -34,6 +34,10 @@
 
 
 ## [알아두면 좋은 참조]
-> main으로 SpringApplication 에 run을 다른 클래스에서 ApplicationRunner을 implements 하면 우리가 run 을 override 할 수 있다.
+> - main으로 SpringApplication 에 run을 다른 클래스에서 ApplicationRunner을 implements 하면 우리가 run 을 override 할 수 있다.
+>>
+>> 이떄 override 하여 run에 원해는 실행을 넣으면 된다.
+>>
+>> 뭐 여기에 JobLauncher을 구현해서 넣으면 자동적으로 원하는 Job을 실행하게 할 수 있다.
 >
-> 이떄 override 하 run에 원해는 실행을 넣으면 된다.
+> - application.yml 에 spring.batch.job.enabled 을 통해 자동적으로 job이 실행되는 걸 막을 수 있다.
