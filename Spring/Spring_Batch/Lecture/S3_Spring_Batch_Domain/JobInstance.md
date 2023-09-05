@@ -21,9 +21,13 @@
 > - 당연히 동일한 데이터는 중복해서 저장이 되지 않는다.
 
 ## [ JobInstance 생성 구조 ]
-> 아래의 그림과 같이 JobLauncher 을 통해 Job을 실행시키면 해당 메타데이터를 저장하는 JobRepository 가 실행되는 Job과 JobParameter로 DB를 조회한다.
+> 아래의 그림과 같이 JobLauncher 을 통해 Job을 실행시키면 해당 메타데이터를 저장하는 <strong>JobRepository(강의 후 수정 필요)</strong> 가 실행되는 Job과 JobParameter로 DB를 조회한다.
 > 
 > 만약 실행한 JobName과 JobKey 가 DB에 존재한다면 JobInstance가 이미 생성되었다는 것을 의미해 기존 JobInstance를 리턴한다.
 >
 > 만약 DB에 없다면, 기존 프로그램에 JobInstacne가 존재하는 지 체크하고 없으면 새로운 JobInstacne를 생성한다.
 > ![image](https://github.com/ByeonChanHO/Back_End_Study/assets/38696775/1ca27c58-cf57-4052-a90c-9df8b7ecf419)
+
+## [ Job 실행시 JobInstance 생성된 예제 ]
+> 아래 그림과 같이 같은 Job이 실행되더라도 JobParameter가 다르면 각자의 JobInstance 가 생기며 DB 테이블에 다르게 Job Key 가 저장된다.
+> ![image](https://github.com/ByeonChanHO/Back_End_Study/assets/38696775/ab1cb953-4546-4a01-b9ae-10922ab136a2)
