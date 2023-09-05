@@ -31,3 +31,9 @@
 ## [ Job 실행시 JobInstance 생성된 예제 ]
 > 아래 그림과 같이 같은 Job이 실행되더라도 JobParameter가 다르면 각자의 JobInstance 가 생기며 DB 테이블에 다르게 Job Key 가 저장된다.
 > ![image](https://github.com/ByeonChanHO/Back_End_Study/assets/38696775/ab1cb953-4546-4a01-b9ae-10922ab136a2)
+
+
+## [알아두면 좋은 참조]
+> main으로 SpringApplication 에 run을 다른 클래스에서 ApplicationRunner을 implements 하면 우리가 run 을 override 할 수 있다.
+>
+> 이떄 override 하 run에 원해는 실행을 넣으면 된다.
